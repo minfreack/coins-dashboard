@@ -1,10 +1,9 @@
 import { getCoinHistorialData, getCoinsMarketData } from "../services/api/coins"
 import { useQuery } from 'react-query'
-import { AreaChart, BarChart, DateRangePicker, DateRangePickerValue, ProgressCircle, SearchSelect, SearchSelectItem, } from '@tremor/react';
+import {  DateRangePickerValue } from '@tremor/react';
 import { Coin } from "../interfaces";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import dayjs from 'dayjs';
-import { es } from 'date-fns/locale';
 import HistoricalBarChart from "../components/charts/HistoricalBarChart";
 import ActualValueBarChart from "../components/charts/ActualValueBarChart";
 import RangeValueAreaChart from "../components/charts/RangeValueAreaChart";
