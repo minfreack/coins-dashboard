@@ -14,14 +14,14 @@ Para este proyecto se utilizó la API de CoinGecko para leer información sobre 
 
 2. Descargar dependencias
 ```
-yarn install
+pnpm install
 ```
 
 3. Configurar variables .env tomando el ejemplo del .env.template
 
 4. Correr el proyecto
 ```
-yarn dev
+pnpm dev
 ```
 
 ## Ejemplos de estados del proyecto
